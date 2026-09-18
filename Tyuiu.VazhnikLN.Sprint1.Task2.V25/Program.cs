@@ -1,6 +1,6 @@
 ﻿using System;
-using Tyuiu.VazhnikLN.Sprint1.Task1.V16.Lib;
-namespace Tyuiu.VazhnikLN.Sprint1.Task1.V16
+using Tyuiu.VazhnikLN.Sprint1.Task2.V25.Lib;
+namespace Tyuiu.VazhnikLN.Sprint1.Task2.V25
 
 {
     class Program
@@ -12,34 +12,25 @@ namespace Tyuiu.VazhnikLN.Sprint1.Task1.V16
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #1                                                               *");
             Console.WriteLine("* Тема: Создания итогового решения по спринту                             *");
-            Console.WriteLine("* Задание #1                                                              *");
-            Console.WriteLine("* Вариант #16                                                             *");
+            Console.WriteLine("* Задание #0                                                              *");
+            Console.WriteLine("* Вариант #19                                                             *");
             Console.WriteLine("* Выполнил: Важние Лука Николаевич | ПКТб-26-1                            *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
             Console.WriteLine("* Написать программу, которая запрашивает у пользователя исходные данные, *");
-            Console.WriteLine("* вычисляет результат по формуле x*5*a+2*y и печатает его на экране.      *");
+            Console.WriteLine("* выполняет указанные расчёты и печатает результат на экране.             *");
             Console.WriteLine("*                                                                         *");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
-            double a, x, y;
+            Console.WriteLine("* Вводит пользователь                                                     *");
 
-            Console.WriteLine("Введите значение А:");
-            a = Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine("Введите значение X:");
-            x = Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine("Введите значение Y:");
-            y = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("Введите количество радиан:");
+            int value = Convert.ToInt16(Console.ReadLine());
             Console.WriteLine("***************************************************************************");
-            Console.WriteLine("* РЕЗУЛЬТАТ                                                               *");
+            Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
-
-            Console.WriteLine(ds.Calculate(a, x, y));
+            Console.WriteLine(ds.ConvertRadsToDegrees(value));
             Console.ReadLine();
-            
-
-
-
 
         }
     }
