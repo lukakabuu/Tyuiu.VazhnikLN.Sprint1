@@ -1,5 +1,5 @@
-﻿using Tyuiu.VazhnikLN.Sprint1.Task0.V19.Lib;
-namespace Tyuiu.VazhnikLN.Sprint1.Task0.V19.Test
+﻿using Tyuiu.VazhnikLN.Sprint1.Task0.V15.Lib;
+namespace Tyuiu.VazhnikLN.Sprint1.Task0.V15.Test
 {
     [TestClass]
     public sealed class DataServiveTest
