@@ -12,9 +12,9 @@ namespace Tyuiu.VazhnikLN.Sprint1.Task2.V25
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #1                                                               *");
             Console.WriteLine("* Тема: Создания итогового решения по спринту                             *");
-            Console.WriteLine("* Задание #0                                                              *");
-            Console.WriteLine("* Вариант #19                                                             *");
-            Console.WriteLine("* Выполнил: Важние Лука Николаевич | ПКТб-26-1                            *");
+            Console.WriteLine("* Задание #2                                                              *");
+            Console.WriteLine("* Вариант #25                                                            *");
+            Console.WriteLine("* Выполнил: Важник Лука Николаевич | ПКТб-26-1                            *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
             Console.WriteLine("* Написать программу, которая запрашивает у пользователя исходные данные, *");
@@ -23,7 +23,7 @@ namespace Tyuiu.VazhnikLN.Sprint1.Task2.V25
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Вводит пользователь                                                     *");
-
+            Console.WriteLine("***************************************************************************");
             Console.WriteLine("Введите количество радиан:");
             int value = Convert.ToInt16(Console.ReadLine());
             Console.WriteLine("***************************************************************************");
@@ -31,6 +31,7 @@ namespace Tyuiu.VazhnikLN.Sprint1.Task2.V25
             Console.WriteLine("***************************************************************************");
             Console.WriteLine(ds.ConvertRadsToDegrees(value));
             Console.ReadLine();
+
 
         }
     }

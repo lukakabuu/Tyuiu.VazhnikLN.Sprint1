@@ -14,7 +14,7 @@ namespace Tyuiu.VazhnikLN.Sprint1.Task0.V15
             Console.WriteLine("* Тема: Создания итогового решения по спринту                             *");
             Console.WriteLine("* Задание #0                                                              *");
             Console.WriteLine("* Вариант #19                                                             *");
-            Console.WriteLine("* Выполнил: Важние Лука Николаевич | ПКТб-26-1                            *");
+            Console.WriteLine("* Выполнил: Важник Лука Николаевич | ПКТб-26-1                            *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
             Console.WriteLine("* Написать программу, которая вычисляет значение выражения                *");
